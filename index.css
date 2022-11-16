@@ -1,0 +1,266 @@
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #004aad;
+}
+
+body {
+    background: linear-gradient(white, #004aad);
+}
+
+header {
+    padding: 20px 0;
+    display: flex;
+}
+
+.logoLeticia {
+    width: 450px;
+    height: 400px;
+    margin-top: -70px;
+}
+
+.logoGithub {
+    margin-left: 550px;
+    margin-top: 85px;
+    width: 50px;
+    height: 50px;
+}
+
+.logoLinkedin {
+    margin-left: 30px;
+    margin-top: 65px;
+    width: 90px;
+    height: 90px;
+}
+
+.logoCurriculo {
+    margin-left: 30px;
+    margin-top: 75px;
+    width: 70px;
+    height: 70px;
+}
+
+.logoEmail {
+    margin-left: 30px;
+    margin-top: 75px;
+    width: 70px;
+    height: 70px;
+}
+
+.tituloMain {
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 608px;
+    margin-top: 20px;
+}
+
+.tituloMain:hover {
+    color: #004aad;
+}
+
+.sobreMim {
+    display: flex;
+    margin-left: 50px;
+}
+
+.tituloSobreMim,
+.tituloMapa,
+.tituloLinhadoTempo,
+.tituloMapa {
+    margin-left: 465px;
+    font-size: 25px;
+}
+
+.tituloSobreMim {
+    margin-top: 70px;
+}
+
+.tituloprojetos {
+    margin-left: -90px;
+    font-size: 25px;
+}
+
+.tituloLinhadoTempo {
+    margin-top: 80px;
+}
+
+.nomeTempo {
+    font-size: 20px;
+}
+
+.arquiteta {
+    width: 250px;
+    margin-top: -40px;
+    margin-left: 85px;
+}
+
+.formatura {
+    width: 200px;
+    margin-top: -30px;
+    margin-left: 85px;
+}
+
+.fotoLeticia {
+    height: 350px;
+    margin-top: -25px;
+    transform: rotate(-35deg);
+    border-radius: 200px;
+    margin-left: 50px;
+}
+
+.caixatextoMim {
+    margin-right: 235px;
+    padding: 10px 10px;
+}
+
+.textoSobreMim {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.meusHobbies {
+    width: 250px;
+    display: flex;
+    height: 200px;
+    margin-top: 35px;
+    margin-left: 135px;
+}
+
+.musica {
+    width: 550px;
+    display: flex;
+    height: 250px;
+}
+
+.pets {
+    width: 400px;
+    display: flex;
+    height: 200px;
+    margin-top: -35px;
+}
+
+.passeio {
+    width: 200px;
+}
+
+
+ul li {
+    list-style: none;
+}
+
+.linha-do-tempo {
+    position: relative;
+    max-width: 1024px;
+    height: auto;
+    padding: 0px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.marcador {
+    width: 50%;
+    float: left;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    border-right: 2px dashed #6482a9;
+    box-sizing: border-box;
+}
+
+.ano {
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #f0f0f0;
+    background-color: #004aad;
+    background-image: -webkit-linear-gradient(140deg,
+            rgba(255, 255, 255, .2) 50%,
+            transparent 50%,
+            transparent);
+    text-align: center;
+    margin-top: 7%;
+    margin: 1% auto;
+    clear: both;
+}
+
+.item {
+    width: 44%;
+    margin: 4% 0.5%;
+    padding: 1%;
+    float: right;
+}
+
+.item:nth-of-type(2n) {
+    float: left;
+    margin: 4% 0.5%;
+    padding: 1%;
+}
+
+.item p {
+    color: rgb(66, 65, 60);
+    text-align: center;
+}
+
+.logoReprograma {
+    margin-top: -30px;
+    width: 250px;
+}
+
+.logoEmpreender {
+    margin-top: -30px;
+    margin-left: 120px;
+    width: 150px;
+}
+
+.fotoBB {
+    margin-top: -30px;
+    margin-left: 170px;
+    width: 150px;
+}
+
+.mapaLeticia {
+    margin-left: 450px;
+    box-shadow: 0 0 30px #004aad;
+}
+
+.projetos {
+    margin-left: 35%;
+}
+
+.todosProjetos {
+    border-style: solid;
+    border-color: #b2b5b8;
+    margin-left: -100px;
+    background: #8a9db7;
+    margin-right: 40%;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+button {
+    width: 33%;
+    padding: 8px 0;
+    margin-bottom: 10px;
+    margin-left: 215px;
+    background: #004aad;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #011e43;
+    color: white;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+
+.titulosprojetos {
+    text-align: center;
+    font-size: 23px;
+}
